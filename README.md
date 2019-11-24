@@ -1,2 +1,2 @@
 # product-circle
-Product circle app repo
+Product circle static website repo
