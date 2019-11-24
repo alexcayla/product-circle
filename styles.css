@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: red; }
+
+header {
+  padding: 0.5rem;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.15rem;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6); }
+  header a {
+    text-decoration: none;
+    color: black; }
+    header a:hover {
+      color: red; }
+  header #logo {
+    display: flex;
+    align-items: center; }
+    header #logo p {
+      font-weight: 700; }
+  header #logo-img {
+    height: 30px; }
+
+.hero {
+  position: relative;
+  height: calc(100vh - 50px); }
+  .hero img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover; }
+    @media screen and (max-width: 420px) {
+      .hero img {
+        height: auto;
+        object-fit: contain; } }
+
+#description {
+  font-family: 'Public Sans', sans-serif;
+  position: absolute;
+  width: 25vw;
+  bottom: 10vh;
+  right: 2rem;
+  font-size: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.6); }
+  #description div {
+    padding: 2rem; }
+    @media screen and (max-width: 420px) {
+      #description div {
+        padding: 1rem; } }
+  @media screen and (max-width: 420px) {
+    #description {
+      position: static;
+      width: 100vw;
+      margin-top: -10px;
+      height: 75%; } }
